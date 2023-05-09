@@ -33,7 +33,7 @@ main {
     font-family: 'Lexend Deca', sans-serif;
     padding: 3em;
     margin: 0;
-    height: 500px;
+    height: 31.25em;
 }
 
 .card__main--orange {
@@ -102,4 +102,40 @@ p {
     color: hsl(0, 0%, 95%);
     border: white solid 2px;
     transition: 150ms;
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 375px) {
+    body {
+        min-height: 100vh;
+        margin: 2em;
+        display: flex;
+        width: 20em;
+        background-color: hsl(0, 0%, 95%);
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card__main--orange {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card__main--darkcyan {
+        border-radius: 0 0 10px 10px;
+    }
+    
+    .card__main {
+              height: 28em;
+    }
+
+    p {
+        padding-bottom: 3em;
+    }
 }
