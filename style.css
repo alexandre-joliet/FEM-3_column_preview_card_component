@@ -1,0 +1,105 @@
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    width: 57em;
+    background-color: hsl(0, 0%, 95%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* DETAILS */
+
+.card__main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 3em;
+    margin: 0;
+    height: 500px;
+}
+
+.card__main--orange {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.card__main--cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card__main--darkcyan {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+img {
+    height: 2.5em;
+    width: 4em;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 95%);
+    margin: 0;
+    padding: 0.6em 0 0.6em ;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.95rem;
+    line-height: 1.6em;
+    padding-bottom: 5.75em;
+    margin: 0;
+}
+
+
+/* BUTTONS */
+
+.btn {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    border: white solid 2px;
+    font-size: 0.95rem;
+    border-radius: 100px;
+    width: 10em;
+    padding: 0.85em 2em 0.85em 2em;
+    cursor: pointer;
+}
+
+.btn.btn--orange {
+    color:hsl(31, 77%, 52%);
+}
+
+.btn.btn--cyan {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn.btn--darkcyan {
+    color: hsl(179, 100%, 13%);
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: white solid 2px;
+    transition: 150ms;
+}
