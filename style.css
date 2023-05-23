@@ -56,6 +56,11 @@ img {
 }
 
 h1 {
+    display: none;
+}
+
+
+h2 {
     font-family: 'Big Shoulders Display', sans-serif;
     font-size: 2.5rem;
     color: hsl(0, 0%, 95%);
