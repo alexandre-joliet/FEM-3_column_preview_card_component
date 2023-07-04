@@ -22,8 +22,8 @@
 
 ### Links
 
-- Solution URL: https://github.com/JojoRider/FEM-3_column_preview_card_component
-- Live Site URL: https://jojorider.github.io/FEM-3_column_preview_card_component/
+- Solution URL: https://github.com/alexandre-joliet/FEM-3_column_preview_card_component
+- Live Site URL: https://alexandre-joliet.github.io/FEM-3_column_preview_card_component/
 
 ---
 
